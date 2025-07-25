@@ -82,7 +82,7 @@ def enviar_trama(trama_binaria, host='127.0.0.1', puerto=5000):
 
 # CAPA DE APLICACIÓN 
 def main():
-    print("=== EMISOR DE TRAMAS CON CAPAS ===")
+    print("---EMISOR DE TRAMAS---")
     mensaje = input("Ingrese el mensaje a enviar: ")
     algoritmo = input("Seleccione algoritmo (hamming o fletcher): ")
 
