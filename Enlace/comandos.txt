@@ -1,0 +1,11 @@
+Primero se corre el archivo de receptor y luego el que se necesite de python.
+
+gcc receptorAuto.c -o receptor.exe -lws2_32
+receptor.exe
+
+
+
+python emisorAuto.py
+
+
+python emisorAuto_Fletcher.py
